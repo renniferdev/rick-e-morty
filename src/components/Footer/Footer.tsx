@@ -63,7 +63,7 @@ const Footer = () => {
               <p className={styles.paragraph}>
                 Desenvolvido por{" "}
                 <a
-                  href="https://www.linkedin.com/in/luizfelipe9627"
+                  href="https://www.linkedin.com/in/rennifer-amilton-teixeira-08983219a/"
                   target="_blank"
                 >
                   Rennifer Teixeira
