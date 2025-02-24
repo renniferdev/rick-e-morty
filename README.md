@@ -44,6 +44,6 @@ Este é um projeto concluído desenvolvido para treinar minhas habilidades em Re
 ## 📷 Me siga nas redes sociais<br>
 
 <p align="left">
-  <a href="www.linkedin.com/in/rennifer-amilton-teixeira-08983219a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/rennifer-amilton-teixeira-08983219a/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </p>
 # rick-e-morty
