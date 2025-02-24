@@ -26,9 +26,24 @@ Este é um projeto concluído desenvolvido para treinar minhas habilidades em Re
 - `VITE.JS`
 - `ESLINT`
 
+  ## 🧑‍💻 Criador
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/renniferdev">
+        <img src="https://github.com/renniferdev.png" width="100px;" alt="Foto de Luiz Felipe Silva no GitHub"/><br>
+        <sub>
+          <b>Rennifer Teixeira</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## 📷 Me siga nas redes sociais<br>
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/luizfelipe9627/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="www.linkedin.com/in/rennifer-amilton-teixeira-08983219a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 </p>
 # rick-e-morty
