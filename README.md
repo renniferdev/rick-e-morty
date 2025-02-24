@@ -26,21 +26,6 @@ Este é um projeto concluído desenvolvido para treinar minhas habilidades em Re
 - `VITE.JS`
 - `ESLINT`
 
-## 🧑‍💻 Criador
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/luizfelipe9627">
-        <img src="https://github.com/luizfelipe9627.png" width="100px;" alt="Foto de Luiz Felipe Silva no GitHub"/><br>
-        <sub>
-          <b>Luiz Felipe Silva</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
 ## 📷 Me siga nas redes sociais<br>
 
 <p align="left">
