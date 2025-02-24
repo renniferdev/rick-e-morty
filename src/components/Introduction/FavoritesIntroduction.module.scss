@@ -1,0 +1,41 @@
+.favoritesIntroduction {
+  border-bottom: 0.125rem solid #11b0c8;
+  height: calc(100vh - 8rem);
+
+  @media (max-width: 600px) {
+    height: max-content;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    .info {
+      max-width: 40ch;
+
+      h1,
+      span {
+        color: var(--color11);
+        font-size: 3rem;
+        font-weight: 700;
+      }
+
+      span {
+        color: var(--color8);
+      }
+
+      svg {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .img {
+      display: flex;
+    }
+  }
+}

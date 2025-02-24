@@ -1,0 +1,49 @@
+.favorite {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+
+    .empty {
+      height: 100%;
+      grid-column: 1 / -1;
+
+      font-weight: 600;
+      color: var(--color11);
+      margin-bottom: 1.75rem;
+    }
+
+    @media (max-width: 425px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .error {
+      font-size: 1.125rem;
+      letter-spacing: 0.0625rem;
+      color: var(--color15);
+    }
+  }
+
+  .locations {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    padding-top: 0.25rem;
+
+    @media (max-width: 600px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .favorite {
+    .cards {
+      @media (max-width: 1200px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}

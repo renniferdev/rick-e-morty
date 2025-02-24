@@ -1,0 +1,59 @@
+.cardEpisode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color1);
+  padding: 1rem;
+  border-radius: 1rem;
+
+  &.clicked {
+    background-color: var(--color2);
+
+    a {
+      background-color: var(--color8);
+
+      p,
+      svg {
+        color: #ffffff;
+        fill: #ffffff;
+      }
+    }
+  }
+
+  .name {
+    display: flex;
+
+    p {
+      color: var(--color11);
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    svg {
+      margin-right: 0.5rem;
+      width: 3rem;
+    }
+  }
+
+  .saibaMais {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 1rem;
+
+    a {
+      &:hover {
+        p,
+        svg {
+          color: #ffffff;
+          fill: #ffffff;
+        }
+      }
+    }
+
+    svg {
+      cursor: pointer;
+    }
+  }
+}

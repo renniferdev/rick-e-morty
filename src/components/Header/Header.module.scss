@@ -1,0 +1,15 @@
+.header {
+  padding: 2rem 0;
+  border: none;
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 550px) {
+      gap: 1rem;
+    }
+  }
+}

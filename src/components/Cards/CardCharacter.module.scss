@@ -1,0 +1,86 @@
+.cardCharacter {
+  background-color: var(--color1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+
+  &.clicked {
+    background-color: var(--color2);
+
+    a {
+      background-color: var(--color8);
+
+      p,
+      svg {
+        color: #ffffff;
+        fill: #ffffff;
+      }
+    }
+  }
+
+  .photo {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 1rem;
+    }
+  }
+
+  .infos {
+    color: var(--color11);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+
+    .wrapper {
+      display: flex;
+      margin: 1rem 0;
+      justify-content: space-between;
+      gap: 1rem;
+
+      svg {
+        cursor: pointer;
+      }
+
+      .name {
+        color: var(--color11);
+        font-size: 1rem;
+        font-weight: 700;
+      }
+    }
+
+    .identity {
+      .alive,
+      .species,
+      .planet {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .planet {
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    .saibaMais {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      a {
+        &:hover {
+          p,
+          svg {
+            color: #ffffff;
+            fill: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Inter";
+  src: (url("../font/Inter-Regular.ttf"), url("../font/Inter-Bold.ttf"));
+}
+
+$main-font: "Inter", sans-serif !default;
+
+:root {
+  --main-font: #{$main-font};
+}

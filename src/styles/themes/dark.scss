@@ -1,0 +1,23 @@
+body {
+  &.dark {
+    --color1: #1a1a1a;
+    --color2: #313234;
+    --color3: #000000;
+    --color4: #313234;
+    --color5: #313234;
+    --color6: #313234;
+    --color7: #1a1a1a;
+    --color10: #313234;
+    --color11: #ffffff;
+    --color12: #11b0c8;
+    --color13: #000000;
+    --color14: #e4f4f4;
+    --color15: #ccc;
+    --color16: #1e1e20;
+
+    main,
+    footer {
+      background-color: #1e1e20;
+    }
+  }
+}

@@ -1,0 +1,151 @@
+.footer {
+  .top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    user-select: none;
+
+    @media (max-width: 500px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .backTop {
+      display: flex;
+      align-items: center;
+
+      p {
+        color: var(--color11);
+        font-size: 1rem;
+
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+
+          + button {
+            animation: none;
+          }
+        }
+      }
+
+      button {
+        margin-left: 0.5rem;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        animation: floating 2s infinite;
+
+        &:hover {
+          animation: none;
+        }
+      }
+    }
+  }
+
+  .clearData {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3.5rem 0 1.5rem 0;
+
+    .options {
+      display: flex;
+      gap: 1rem;
+
+      @media (max-width: 330px) {
+        text-align: center;
+      }
+    }
+
+    h1 {
+      font-size: 1rem;
+      color: var(--color11);
+    }
+
+    p {
+      font-size: 0.875rem;
+      color: var(--color11);
+
+      &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+
+    @media (max-width: 550px) {
+      margin-top: 2.5rem;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.125rem;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0 4rem 0;
+    border-top: 0.125rem solid #d9d9d9;
+
+    .year {
+      color: var(--color11);
+      font-size: 0.875rem;
+
+      @media (max-width: 750px) {
+        justify-self: center;
+      }
+    }
+
+    @media (max-width: 750px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+      justify-items: center;
+    }
+
+    .createdBy {
+      display: flex;
+      gap: 0.625rem;
+
+      @media (max-width: 750px) {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .creator {
+        display: flex;
+        align-items: center;
+
+        .paragraph {
+          color: var(--color11);
+          font-size: 0.875rem;
+          margin-left: 0.3125rem;
+
+          a {
+            color: #11b0c8;
+            font-weight: 700;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(0.5rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

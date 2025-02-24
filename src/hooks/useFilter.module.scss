@@ -1,0 +1,11 @@
+.filter {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+
+  p {
+    color: var(--color11);
+    font-size: 1rem;
+  }
+}

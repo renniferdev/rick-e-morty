@@ -1,0 +1,42 @@
+button.label {
+  background-color: var(--color5);
+
+  &:hover {
+    p {
+      color: #ffffff;
+    }
+
+    svg {
+      fill: #ffffff;
+    }
+  }
+}
+
+a.label,
+button.label {
+  background-color: var(--color6);
+
+  &:hover {
+    background-color: #11b0c8;
+    color: #ffffff;
+  }
+}
+
+.label {
+  display: flex;
+  border: none;
+  padding: 0.25rem 0.375rem;
+  align-items: center;
+  border-radius: 2rem;
+  cursor: pointer;
+
+  p {
+    color: var(--color11);
+    font-size: 0.875rem;
+  }
+
+  img,
+  svg {
+    margin-right: 0.5rem;
+  }
+}

@@ -1,0 +1,133 @@
+.homePreview {
+  padding: 4.375rem 0 5rem 0;
+  min-height: 100vh;
+
+  @media (max-width: 1200px) {
+    padding: 2.1875rem 0 2.5rem 0;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 4.375rem;
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 25.3125rem;
+
+      input {
+        width: 25.3125rem;
+        background-color: var(--color7);
+        padding: 1rem;
+        border-radius: 2rem;
+        border: 0.0625rem solid #313234;
+        font-size: 1rem;
+        color: var(--color11);
+
+        &::placeholder {
+          color: var(--color14);
+        }
+
+        @media (max-width: 31.25rem) {
+          font-size: initial;
+        }
+      }
+
+      .filterEmpty {
+        display: flex;
+        justify-content: end;
+        font-weight: 700;
+        letter-spacing: 0.0313rem;
+        gap: 0.5rem;
+        color: var(--color8);
+        font-size: 0.875rem;
+        margin-top: 0.5rem;
+      }
+
+      .searchIcon {
+        border: none;
+        background-color: transparent;
+        position: absolute;
+        right: 1rem;
+        top: 0.5rem;
+        cursor: pointer;
+
+        svg {
+          fill: var(--color11);
+
+          @media (max-width: 500px) {
+            display: none;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 1200px) {
+      justify-content: center;
+
+      .form {
+        width: 100%;
+        margin-bottom: 0.75rem;
+        flex-wrap: wrap;
+
+        input {
+          width: 100%;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+
+    .filter {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+
+      @media (max-width: 1200px) {
+        gap: 1rem;
+
+        div {
+          justify-content: center;
+        }
+      }
+
+      .arrow {
+        animation: moveArrow 1.5s linear infinite;
+      }
+
+      .title {
+        display: flex;
+        align-items: center;
+        color: var(--color11);
+        font-size: 1rem;
+        gap: 0.5rem;
+      }
+    }
+  }
+
+  .charactersResult {
+    color: var(--color11);
+
+    .title {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@keyframes moveArrow {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(0.5rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
