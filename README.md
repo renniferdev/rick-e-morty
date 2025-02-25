@@ -12,7 +12,16 @@ Rick e Morty é uma série de animação adulta norte-americana de comédia e fi
 
 Este é um projeto concluído desenvolvido para treinar minhas habilidades em React.JS, Typescript, SASS, Rotas e em API Rest.
 
-### <a href="https://luizfelipe9627-rick-e-morty.netlify.app">Acesse o projeto</a>
+## 🎯 Funcionalidades
+
+✔️ **Exploração Completa** – Descubra informações detalhadas sobre **personagens, episódios e localizações**.  
+✔️ **Lista de Favoritos** – Adicione personagens à sua lista de favoritos para acessá-los facilmente depois.  
+✔️ **Modo Claro e Escuro** – Alterne entre os temas **Light** e **Dark** para uma navegação personalizada.  
+✔️ **Pesquisa Inteligente** – Encontre qualquer **personagem, episódio ou localização** rapidamente.  
+✔️ **Detalhes Ricos** – Cada personagem possui informações como **dimensão, localização, status e episódios** em que apareceu.  
+✔️ **Experiência Responsiva** – O site é totalmente adaptável para **desktop, tablet e dispositivos móveis**.  
+
+### <a href="https://rick-e-morty-iota.vercel.app/">Acesse o projeto</a>
 
 ## 🎨 Layout
 
@@ -20,11 +29,11 @@ Este é um projeto concluído desenvolvido para treinar minhas habilidades em Re
 
 ## 💻 Tecnologias utilizadas
 
-- `REACT.JS`
-- `TYPESCRIPT`
-- `SASS`
-- `VITE.JS`
-- `ESLINT`
+- `REACT.JS → Biblioteca para construção da interface interativa`
+- `TYPESCRIPT → Tipagem estática para maior segurança e organização do código`
+- `SASS → Pré-processador CSS para estilização eficiente`
+- `VITE.JS → Ferramenta para criação de aplicações React com performance otimizada`
+- `ESLINT → Padronização do código para melhor qualidade`
 
   ## 🧑‍💻 Criador
 
